@@ -1,0 +1,34 @@
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: #559f9e; 
+    width: 350px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.tarjeta:hover{
+    transform: scale(1.1);
+    transition: 100ms; 
+}
+
+.cerrar{
+    background-color: #55282e;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.cerrar:hover{
+    transform: scale(1.2);
+    transition: 100ms; 
+}
+
+.texto{
+    color: #724c37;
+    
+}
